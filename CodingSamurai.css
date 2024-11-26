@@ -1,0 +1,33 @@
+.delete-button{
+    margin-left: 15px;
+    border-radius: 8p
+}
+.li-btn{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+#todo-div{
+    text-align: center;
+   margin-top: 30px;
+   position:sticky;
+ 
+
+}
+#todo-items{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#add-item-Btn{
+    padding: 10px;  
+    border: none;
+    border-radius: 10px;
+   
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+

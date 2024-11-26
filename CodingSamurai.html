@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./CodingSamurai.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="todo-div">
+        <input type="text" id="todo-items" placeholder="Add a task" />
+        <select id="add-priority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button id="add-item-Btn">Add Task</button>
+    </div>
+    
+    <div id="todo-div">
+        <label for="filter-state-dropdown">Filter by State:</label>
+        <select id="filter-state-dropdown">
+            <option value="All">All</option>
+            <option value="Pending">Pending</option>
+            <option value="Completed">Completed</option>
+        </select>
+    
+        <label for="filter-priority-dropdown">Filter by Priority:</label>
+        <select id="filter-priority-dropdown">
+            <option value="All">All</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+    </div>
+    
+    <ul id="add-items"></ul>
+    
+    
+
+<script src="./codingSamuraiProject.js"></script>
+</body>
+</html>
